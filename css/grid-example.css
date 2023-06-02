@@ -1,0 +1,63 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(6, 100px);
+}
+.content {
+  border: 1px solid;
+}
+.content1 {
+  background-color: gainsboro;
+  grid-area: 2/1/6/2;
+}
+.content2 {
+  background-color: aqua;
+  grid-area: 3/1/5/2;
+  background-image: url("https://lavinya.net/wp-content/uploads/2022/11/4c62ba-manzara-gol-lake-landscape-scaled.jpeg");
+
+  background-size: cover;
+  background-position: center;
+}
+.content3 {
+  background-image: url("https://i.pinimg.com/originals/ce/e3/92/cee392311f63749a3a43694c892208a7.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-area: 1/2/3/4;
+}
+.content4 {
+  background-color: rgb(167, 121, 37, 0.742);
+  grid-area: 2/3/3/4;
+}
+.content5 {
+  grid-area: 1/4/3/6;
+  background-image: url("https://st.depositphotos.com/1179847/4067/i/450/depositphotos_40676241-stock-photo-barbados.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.content6 {
+  background-color: rgb(167, 121, 37, 0.742);
+  grid-area: 2/5/3/6;
+}
+
+.content7 {
+  background-color: rgb(167, 121, 37, 0.742);
+  background-image: url("https://i.pinimg.com/236x/c4/64/3b/c4643b27dd8035521cf6fabf081e8115.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-area: 1/6/3/8;
+}
+
+.content8 {
+  background-color: rgb(167, 121, 37, 0.742);
+  grid-area: 2/7/3/8;
+}
+.content10 {
+  background-image: url("https://e0.pxfuel.com/wallpapers/1010/494/desktop-wallpaper-beauty-landscape-sky-sunset-manzara.jpg");
+  background-size: cover;
+  background-position: center;
+  grid-column: 2 / span 5;
+  grid-row: 3 / span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
